@@ -146,7 +146,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="commercial.cpp" />
+    <ClCompile Include="employe.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="manutentionnaire.cpp" />
+    <ClCompile Include="personnel.cpp" />
+    <ClCompile Include="technicien.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="commercial.hpp" />
+    <ClInclude Include="employe.hpp" />
+    <ClInclude Include="manutentionnaire.hpp" />
+    <ClInclude Include="personnel.hpp" />
+    <ClInclude Include="technicien.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
