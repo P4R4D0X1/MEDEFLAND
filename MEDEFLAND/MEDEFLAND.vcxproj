@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="human.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="human.hpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{9524180B-C3FA-4FDB-BE7B-96A710D23715}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -145,21 +152,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="commercial.cpp" />
-    <ClCompile Include="employe.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="manutentionnaire.cpp" />
-    <ClCompile Include="personnel.cpp" />
-    <ClCompile Include="technicien.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="commercial.hpp" />
-    <ClInclude Include="employe.hpp" />
-    <ClInclude Include="manutentionnaire.hpp" />
-    <ClInclude Include="personnel.hpp" />
-    <ClInclude Include="technicien.hpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

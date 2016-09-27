@@ -1,7 +1,5 @@
 #include <iostream>
 
-#include "personnel.hpp"
-
 using namespace std;
 
 int main() {
